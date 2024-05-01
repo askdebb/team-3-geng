@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +17,12 @@ body {
 
 header {
     margin: 50px 0;
+    background-color: #e4e4b0;
+}
+
+.small {
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
 }
 
 h1, h2 , .small, footer{
@@ -57,10 +62,14 @@ a {
     background-color: #fff;
     height: 400px;
     text-align: center;
-    width: 25%;
+    width: 27%;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0px 0px 15px 1px;
+}
+.first-items:hover {
+    transition: 0.3ms ease-in;
+    box-shadow: 0px 0px 1px 0px;
 }
 
 .first-items img {
@@ -72,5 +81,107 @@ a {
 .summary-details {
     padding: 5px;
     font-size: 12px;
+    text-align: left;
+    margin: auto 10px;
+}
+
+/* .summary-details */
+
+.section-bottom-div {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.left-link {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.left-link ul {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+.left-link ul li{
+    width: 20vw;
+}
+
+.right-link {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    left: 20px;
+}
+
+#btn1, #btn2 {
+    border: none;
+    width: 80px;
+    line-height: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#btn1:hover {
+    border: 2px solid #fff;
+    cursor: pointer;
+    background-color: #d8d2cb;
+    font-weight: bold;
+}
+#btn2:hover {
+    width: 90px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    background-color: #d8d2cb;
+    font-weight: bold;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+#geng:hover {
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
 }
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+
+
+
+
+
