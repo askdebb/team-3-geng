@@ -14,8 +14,21 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.group-logo {
+    margin-right: 10px;
+}
+
+.group-logo img {
+    width: 90px;
+}
 
 header {
+    padding: 10px 0;
     margin: 50px 0;
     background-color: #e4e4b0;
 }
@@ -95,6 +108,10 @@ a {
     margin: 30px auto;
 }
 
+.section .section-bottom-div {
+    padding-bottom: 30px!important;
+}
+
 .left-link {
     display: flex;
     align-items: start;
@@ -119,31 +136,22 @@ a {
     left: 20px;
 }
 
-#btn1, #btn2 {
+#btn1, #btn2, #btn3 {
     border: none;
     width: 80px;
-    line-height: 10px;
-    padding: 10px;
+    /* line-height: 10px; */
+    padding: 5px 10px;
     margin-bottom: 5px;
     margin-left: 5px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s ease;
 }
-#btn1:hover {
+#btn1:hover, #btn2:hover, #btn3:hover {
     border: 2px solid #fff;
-    cursor: pointer;
-    background-color: #d8d2cb;
     font-weight: bold;
 }
-#btn2:hover {
-    width: 90px;
-    border: 2px solid #fff;
-    cursor: pointer;
-    background-color: #d8d2cb;
-    font-weight: bold;
-}
-
+ 
 footer {
     margin-bottom: 20px;
 }
@@ -153,6 +161,134 @@ footer {
     color: blue;
     cursor: pointer;
 }
+
+
+/* member profile */
+.section {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.section h2 {
+    padding: 30px 0;
+}
+
+.profile-container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 15px;
+   
+   
+}
+
+.image-profile-container-items {
+    width: 20%;
+    /* background-color: blue; */
+}
+
+.image-profile-container-items img{
+    height: 700px;
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.info-grid-container{
+    width: 50%;
+ }
+
+.info-profile-container-items {
+    display: grid;
+    background-color: #ebdada;
+    gap: 50px 80px;
+    margin-bottom: 20px;
+}
+
+.info-details, .social-handles {
+    padding: 30px;
+}
+
+.message-box {
+    margin-top: 40px;
+}
+
+input[value="Submit"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #30a730;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+input[value="Submit"]:hover {
+    font-size: bold;
+    background-color: #068106;
+}
+#goBack {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #ee2727;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+#goBack:hover {
+    font-size: bold;
+    background-color: #fd0404;
+}
+
+span img {
+    width: 32px;
+    width: 32px;
+}
+
+#td-width {
+    width: 20%;
+}
+
+
+.image-sent {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    display: none; 
+
+}
+
+#goBackDiv, #processing-feedback {
+    display: none;
+}
+
+
+
+.image-sent img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+
+}
+
+.image-sent p {
+    text-align: center;
+}
+
+#message {
+    padding: 5px;
+}
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
