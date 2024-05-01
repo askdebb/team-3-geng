@@ -379,20 +379,20 @@ span img {
    }
 
    .first-items {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     margin-bottom: 20px;
     height: 430px;
    }
 
    .summary-details h3 {
-    font-size: 20px;
+    font-size: 18px;
    }
    .summary-details p {
-    font-size: 18px;
+    font-size: 15px;
    }
    .summary-details small {
-    font-size: 18px;
+    font-size: 12px;
    }
 
    .section {
