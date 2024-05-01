@@ -370,12 +370,32 @@ span img {
    }
 
    .right-link img {
-    width: 70px;
+    width: 80px;
     margin-left: 10px;
    }
 
+   .team-container-items {
+    display: block;
+   }
 
-   
+   .first-items {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 430px;
+   }
+
+   .summary-details h3 {
+    font-size: 20px;
+   }
+   .summary-details p {
+    font-size: 18px;
+   }
+   .summary-details small {
+    font-size: 18px;
+   }
+
+
 }
 
 
