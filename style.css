@@ -1,14 +1,14 @@
 
 
 .welcome-text {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 .Team-three-description  {
     font-family: "Poppins", sans-serif;
     font-size: medium;
     font-style: normal;
-    text-align: center;
+    text-align: justify;
     -webkit-text-fill-color:black
     
 }
