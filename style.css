@@ -409,7 +409,7 @@ span img {
     justify-content: center; 
    }*/
    .image-profile-container-items img{
-    width: 420px;
+    width: 95%;
     margin: 0 auto;
     margin-left: 10px;
    }
