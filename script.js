@@ -11,7 +11,7 @@ const feedbackContent = document.querySelector('.image-sent')
 const interimFeedback = document.getElementById('processing-feedback');
 
 
-msgBtn.addEventListener('click', () => {
+msgBtn.addEventListener('click', function() {
     if(msgArea.value == "" || msgArea.value == " "){
        
         form.style.display = 'none';
