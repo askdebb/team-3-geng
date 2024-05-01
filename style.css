@@ -395,6 +395,35 @@ span img {
     font-size: 18px;
    }
 
+   .section {
+    width: 100%;
+   }
+
+   .profile-container {
+    display: block;
+   }
+
+   /* .image-profile-container-items {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   }*/
+   .image-profile-container-items img{
+    width: 420px;
+    margin: 0 auto;
+    margin-left: 10px;
+   }
+
+   .info-grid-container {
+        width: 95%;
+        margin-left: 10px;
+   }
+
+   .message-box #form textarea {
+    width: 100%;
+   }
+
+
 
 }
 
