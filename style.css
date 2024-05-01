@@ -403,11 +403,9 @@ span img {
     display: block;
    }
 
-   /* .image-profile-container-items {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-   }*/
+   .image-profile-container-items {
+    width: 100%; 
+   }
    .image-profile-container-items img{
     width: 95%;
     margin: 0 auto;
@@ -415,7 +413,7 @@ span img {
    }
 
    .info-grid-container {
-        width: 300px;
+        width: 95%;
         margin-left: 10px;
    }
 
