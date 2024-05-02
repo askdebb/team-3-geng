@@ -325,6 +325,12 @@ span img {
     .message-box #form textarea {
         width: 100%;
        }
+    .info-grid-container {
+        width: 45%;
+        margin-left: 10px;
+   }
+    
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -413,12 +419,12 @@ span img {
    .image-profile-container-items img{
     width: 95%;
     margin: 0 auto;
-    /* margin-left: 10px; */
+    margin-left: 10px;
    }
 
    .info-grid-container {
         width: 95%;
-        /* margin-left: 10px; */
+        margin-left: 10px;
    }
 
    .message-box #form textarea {
