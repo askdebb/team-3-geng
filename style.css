@@ -2,8 +2,10 @@
 
 .welcome-text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    text-align: center;
 }
+
+
 .Team-three-description  {
     font-family: "Poppins", sans-serif;
     font-size: medium;
@@ -320,7 +322,9 @@ span img {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    .message-box #form textarea {
+        width: 100%;
+       }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -409,12 +413,12 @@ span img {
    .image-profile-container-items img{
     width: 95%;
     margin: 0 auto;
-    margin-left: 10px;
+    /* margin-left: 10px; */
    }
 
    .info-grid-container {
         width: 95%;
-        margin-left: 10px;
+        /* margin-left: 10px; */
    }
 
    .message-box #form textarea {
